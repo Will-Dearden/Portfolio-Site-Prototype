@@ -281,8 +281,9 @@ h1 {
 .subheading {
     position: relative;
     left: 5%;
-    margin: 20px auto;
-    font-family: 'Roboto', sans-serif;
+    margin: 80px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
 }
 
 h3 {
@@ -290,13 +291,8 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-.skill img {
-    height: 80px;
-    width: auto;
-}
-
 section {
-    padding-block: 5rem;
+    padding-block: 6rem;
 }
 
 p {
@@ -317,4 +313,51 @@ p {
     inset: 0;
     transform: skewY(-5deg);
     z-index: -1;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: auto;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 800px;
+    height: 800px;
+}
+
+.about-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+
+.about-right {
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 600px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.6);
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.skill img {
+    height: 80px;
+    width: auto;
 }
