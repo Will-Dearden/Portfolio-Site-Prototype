@@ -261,6 +261,9 @@ h1 {
     .nav-branding {
         font-size: 2rem;
     }
+    .wrapper {
+        max-width: 95%;
+    }
 }
 
 @media only screen and (max-width: 462px) {
@@ -466,12 +469,13 @@ h1 {
     flex-direction: column;
     align-items: start;
     justify-content: space-between;
-    width: 50%;
-    height: 100%
+    width: 45%;
+    height: 100%;
+    font-size: 1.5rem;
 }
 
 .project-image {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -486,8 +490,109 @@ h1 {
     justify-content: space-between;
     width: 50%;
     height: 80%;
+    font-size: 1.3rem;
 }
 
-.project-card-right p {
+.para1 {
     margin-bottom: 2rem;
 }
+
+/* Responsive Projects Section */ 
+
+@media only screen and (max-width: 1240px) {
+    .project-card-right {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .project-card-left {
+        font-size: 1.3rem;
+    }
+    .project-card-right {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .project-card {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+    .card-1,
+    .card-2 {
+        margin-bottom: 100px;
+    }
+    .project-card-left {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .project-links {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .project-card-right {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .project-card {
+        padding: 30px;
+    }
+    .project-card-left {
+        font-size: 1.2rem;
+    }
+    .project-card-right {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .project-card {
+        padding: 20px;
+    }
+    .project-card-left {
+        font-size: 1.1rem;
+    }
+    .project-card-right {
+        font-size: 1rem;
+    }
+    .para1 {
+        margin-bottom: 1.5rem;
+        }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .project-card {
+        padding: 10px;
+    }
+}
+
+
+/* Contact Section */ 
+
+.contact {
+    color: rgb(40, 40, 40);
+    background-color: rgb(96, 225, 221);
+}
+
+.contact .subheading {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* Footer */ 
+
+    footer {
+        color: rgb(40, 40, 40);
+        background-color: rgb(96, 225, 221);
+    }
+
+    footer p {
+        padding: 0 4px 4px 0;
+        text-align: right;
+    }
