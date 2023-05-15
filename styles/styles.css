@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+body {
+    background-color: rgb(37, 37, 37);
+}
+
 /* Generic Section Content */ 
 
 .wrapper {
@@ -294,7 +298,7 @@ h1 {
     }
 }
 
-/* CSS Header animation */ 
+/* CSS Header animation 
 
 .gradient-bg {
     width: 100%;
@@ -314,6 +318,10 @@ h1 {
       background-position: 0% 50%;
     }
   }
+
+  * FEATURE CURRENTLY NOT IN USE; TO APPLY TO AN ELEMENT, ASSIGN IT A CLASS VALUE OF 'gradient-bg'. *
+
+  */ 
 
 /* About Section */ 
 
