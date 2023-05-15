@@ -678,6 +678,53 @@ input[type=submit]:hover {
     background-color: rgb(0, 113, 109);
 }
 
+/* Responsive Contact Section: */
+
+@media only screen and (max-width: 1200px) {
+    .contact-form {
+        width: 60%;
+    }
+    .contact-icons {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .contact-form {
+        width: 70%;
+    }
+    .contact-icons {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-form {
+        width: 80%;
+    }
+    .contact-icons {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-form {
+        width: 90%;
+    }
+    .contact-icons {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .contact-form {
+        width: 95%;
+    }
+    .contact-icons {
+        width: 95%;
+    }
+}
+
 /* Footer */ 
 
     footer {
